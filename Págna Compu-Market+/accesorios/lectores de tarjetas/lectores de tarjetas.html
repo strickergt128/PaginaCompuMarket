@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montaga" rel="stylesheet"o
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- Barra de Navegación -->
+    <div class="container">
+      <div class="row">
+        <div class="col s1">
+          <!-- sideNav -->
+          <ul id="slide-out" class="side-nav">
+            <!-- barra de navegación -->
+            <nav>
+              <div class="nav-wrapper">
+                <form>
+                  <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label for="search"><i class="material-icons busqueda">search</i></label>
+                    <i class="material-icons busqueda">close</i>
+                  </div>
+                </form>
+              </div>
+            </nav>
+            <!-- login -->
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="waves-effect collapsible-header"><i class="material-icons">new_releases</i>Registrate</div>
+                <div class="collapsible-body">
+                  <!-- Registro -->
+                  <br>
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Nombre</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Apellido</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Contraseña</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Confirmar Contraseña</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="email" type="email" class="validate">
+                          <label for="email">Correo Electronico</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </li>
+              <li>
+                <div class="waves-effect collapsible-header"><i class="material-icons">perm_identity</i>Login</div>
+                <div class="collapsible-body">
+                  <!-- Login -->
+                  <br>
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Correo Electronico</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Contraseña</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </li>
+              <!-- <span class="categorias">Categorias</span> -->
+              <div class="categorias">Categorias</div>
+
+            <!-- Computadoras -->
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="waves-effect collapsible-header">Computadoras<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a class="waves-effect" href="#!">de Escritorio</a></li>
+                      <li><a class="waves-effect" href="#!">Portatiles</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Accesorios -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Accesorios<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Lectores de Tarjetas</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Memoria</a></li>
+                    <li><a class="waves-effect" href="#!">Bocinas y Audifonos</a></li>
+                    <li><a class="waves-effect" href="#!">Mouse</a></li>
+                    <li><a class="waves-effect" href="#!">Teclados</a></li>
+                    <li><a class="waves-effect" href="#!">Adaptadores</a></li>
+                    <li><a class="waves-effect" href="#!">Cables Varios</a></li>
+                    <li><a class="waves-effect" href="#!">Controles para Juegos</a></li>
+                    <li><a class="waves-effect" href="#!">Filtros Protectores</a></li>
+                    <li><a class="waves-effect" href="#!">Fundas</a></li>
+                    <li><a class="waves-effect" href="#!">Mouse Pad</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Suministros -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Suministros<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Art.P/Mantenimiento</a></li>
+                    <li><a class="waves-effect" href="#!">Cintas Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Cintas Panasonic</a></li>
+                    <li><a class="waves-effect" href="#!">Papel Continuo</a></li>
+                    <li><a class="waves-effect" href="#!">Papel P/Fotocopiadora</a></li>
+                    <li><a class="waves-effect" href="#!">Recargas de Tinta</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos Canon</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos HP</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos Lexmark</a></li>
+                    <li><a class="waves-effect" href="#!">Toner Canon</a></li>
+                    <li><a class="waves-effect" href="#!">Toner HP</a></li>
+                    <li><a class="waves-effect" href="#!">Toner Samsung</a></li>
+                    <li><a class="waves-effect" href="#!">Toner Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Varios Consumibles</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Accesorios para Red -->
+          <a class="waves-effect categoria" href="#!">Accesorios para Red</a>
+          <!-- Equipo para computo -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Equipo para computo<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Ups y Reguladores de Voltaje</a></li>
+                    <li><a class="waves-effect" href="#!">Case</a></li>
+                    <li><a class="waves-effect" href="#!">Cinchos para Discos</a></li>
+                    <li><a class="waves-effect" href="#!">Discos Duros</a></li>
+                    <li><a class="waves-effect" href="#!">Fuentes de Poder</a></li>
+                    <li><a class="waves-effect" href="#!">Memorias RAM</a></li>
+                    <li><a class="waves-effect" href="#!">Monitores</a></li>
+                    <li><a class="waves-effect" href="#!">Mother Board</a></li>
+                    <li><a class="waves-effect" href="#!">Procesadores/CPU</a></li>
+                    <li><a class="waves-effect" href="#!">Quemadora para DVD</a></li>
+                    <li><a class="waves-effect" href="#!">Quemadoras de CDs</a></li>
+                    <li><a class="waves-effect" href="#!">T/radio & TV</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Red</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Sonido</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Video</a></li>
+                    <li><a class="waves-effect" href="#!">Ventiladores</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Camaras -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Camaras<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Camaras Web</a></li>
+                    <li><a class="waves-effect" href="#!">Camaras Digitales</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Medios de Almacenamiento -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Medios de Almacenamiento<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Memorias USB</a></li>
+                    <li><a class="waves-effect" href="#!">CDs en Blanco</a></li>
+                    <li><a class="waves-effect" href="#!">DVDs en Blanco</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Impresoras -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Impresoras<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Impresoras Canon</a></li>
+                    <li><a class="waves-effect" href="#!">Impresoras Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Impresoras Samsung</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Productos Varios -->
+          <a class="waves-effect categoria" href="#!">Productos Varios</a>
+          <!-- Items de Venta -->
+          <a class="waves-effect categoria" href="#!">Items de Venta</a>
+        </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse waves-effect"><i class="material-icons menu">menu</i></a>
+
+        </div>
+        <div class="col s10">
+
+        </div>
+        <div class="col s1">
+          <a class="waves-effect waves-light" href="#"><img id="home" src="house.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parallax -->
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2"><span class="slogan"><img id="logo" src="logo.png" alt="" /></span></h1>
+          <div class="row center">
+            <h5 class="header col s12 light"><span id="letrap" class="info">Lectores de Tarjetas</span></h5>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
+      <div class="parallax"><img src="parallax.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s4">
+            <!-- Produto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto1.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">HUB + MULTILECTOR DE TARJETAS</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q115.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto2.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">LECTOR PARA MICRO SD</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q25.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Lector de Tarjetas Micro SD</p>
+                  <p>Para que transfieras fácilmente tu musica de la computadora a la memoria micro SD de forma rápida.</p>
+
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto3.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">LECTOR DE TARJETAS 38 EN 1</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q85.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Con la función de edición única de SIM para leer y para escribir el directorio del telefono movil</p>
+                  <p>La ayuda SMS y toda la información en clase, se modifican,  corrigen y respaldo</p>
+                  <p>Para tender un puente sobre la PC a SIM carde o tarjeta de SIM a  la PC en el  ahorro como copia.</p>
+                  <p>SIM</p>
+                  <p>M2</p>
+                  <p>SD micro (T-Flash)</p>
+                  <p>MS/MS</p>
+                  <p>SD/MINI SD/HS MINI SD/SD EXTREMO/</p>
+                  <p>EXTREMO III SD/ULTRA II SD/</p>
+                  <p>SD-ULTRA-X/ULTRA VELOCIDAD SD/SD FAVORABLE/</p>
+                  <p>ÉLITE FAVORABLE HS SD DEL SD</p>
+                  <p>MMC/MMC 4.0/HS MMC/HS RS MMC/</p>
+                  <p>Móvil de RS MMC/de RS MMC 4.0/MMC</p>
+                  <p>Enchufe y juego</p>
+                  <p>USB 2.0</p>
+                  <p>Hasta 480 MBPS/s</p>
+                  <p>Ningún adaptador requerido</p>
+                  <p>El OS gana 98/YO/2000/XP/Vista/WINDOWS7.</p>
+                  <p>sdasdasd</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto4.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">LECTOR DE TARJETAS 61 EN 1</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q105.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  * M2
+                  * xD / xD 1.2
+                  * MMC micro / micro SD (T-Flash)
+                  * CF I / CF II / CF 3.0 / EXTREME III CF / EXTREME CF / ULTRA II CF / HS CF / XS-XS CF / CF ELITE PRO / CF PRO / CF PRO II / CF 4.0 / IBM MD / HITACHI MD / MAGIC STOR MD
+                  * MS / MS PRO / MS DUO / MS PRO DUO / MS MG PRO / MS MG / MS MG DUO / MS MG PRO DUO / EXTREME MS PRO / MS SELECT / EXTREME III MS PRO / ULTRA II MS PRO / HS MS MG PRO / HS MS MG PRO DUO / HS MS PRO / HS MS PRO DUO / MS ROM / MS Pro HG Duo
+                  * MMC micro / MMC Mobile / MMC Plus / MMC 4.2 / MMC / MMC 4.0 / HS MMC / HS RS MMC / RS MMC / RS MMC 4.0 / SD / MINI SD / HS MINI SD / EXTREME SD / EXTREME III SD / ULTRA SD / ULTRA II SD / ULTRA II SD PLUS / SD-ULTRA-X / ULTRA SPEED SD / SD PRO / SDHC SD ELITE PRO / HS SD
+                  <p>sdfsdf</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto5.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">MULTILECTOR 7 EN 1</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q35.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Multilector de tarjetas portátil</p>
+                  <p>Soporta todos los tipos de memoria conocidos:</p>
+                  <p>IBM Microdrive</p>
+                  <p>Magicstor Drive</p>
+                  <p>Multi Media Card</p>
+                  <p>Secure Digital Card</p>
+                  <p>RS Multi Media Card</p>
+                  <p>Mini Secure Digital Card (necesita adaptador)</p>
+                  <p>Memory Stick</p>
+                  <p>Memory Stick Pro  Duo</p>
+                  <p>Memory Stick MagicGate</p>
+                  <p>Memory Stick Duo</p>
+                  <p>Memory Stick Duo Pro</p>
+                  <p>Multi Media Card Plus (MMC4.0)</p>
+                  <p>Multi Media Card Mobile (RS MMC 4.0)</p>
+                  <p>High Speed Secure Digital Card</p>
+                  <p>MicroSD(TransFlash)</p>
+                  <p>MS micro(M2, No necesita adaptador)</p>
+                  <p>Maxima velocidad de hasta 480Mbps si utiliza un puerto de 2.0 USB</p>
+                  <p>Soporta la funcion de intercambio Plug and Play</p>
+                  <p>LED indicador</p>
+                  <p>No requiere Energía externa</p>
+                  <p>Soporta sistema operativo Windows 7/XP¨/2000/ME/VISTA/Mac OS 10 o superior</p>
+                  <p>dfdfdf</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li class="waves-effect waves-light"><a class="footer" href="#!"><i id="icono1" class="material-icons right">insert_chart</i>Quienes Somos</a></li>
+        <li class="waves-effect waves-light"><a class="footer" href="contactanos/contactenos.html"><i id="icono2" class="material-icons right">call</i>Contactanos</a></li>
+        <li class="waves-effect waves-light"><a class="footer" href="#!"><i id="icono3" class="material-icons right">supervisor_account</i>Páginas Amigas</a></li>
+        <li class="waves-effect waves-light"><a class="footer" href="#!"><i id="icono4" class="material-icons right">business</i>Franquicias</a></li>
+      </ul>
+    </div>
+
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <br>
+            <h5 class="white-text">Suscríbase a nuestra lista de distribución:</h5>
+            <br>
+            <div class="row">
+              <div class="col s12">
+                <div class="input-field inline">
+                  <input id="suscripcion" type="email" class="validate">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+              </div>
+            </div>
+            <br><br>
+
+          </div>
+          <div class="col l6 s12">
+            <br>
+            <h5 class="white-text">Deja tu Comentario:</h5>
+            <br><br>
+            <div class="row">
+              <div class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">textsms</i>
+                    <input type="text" id="autocomplete-input" class="autocomplete">
+                    <label for="autocomplete-input"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+       <div class="container">
+       © 2016 Compu-Market
+       </div>
+     </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

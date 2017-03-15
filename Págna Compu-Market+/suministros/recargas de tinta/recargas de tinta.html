@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montaga" rel="stylesheet"o
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- Barra de Navegación -->
+    <div class="container">
+      <div class="row">
+        <div class="col s1">
+          <!-- sideNav -->
+          <ul id="slide-out" class="side-nav">
+            <!-- barra de navegación -->
+            <nav>
+              <div class="nav-wrapper">
+                <form>
+                  <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label for="search"><i class="material-icons busqueda">search</i></label>
+                    <i class="material-icons busqueda">close</i>
+                  </div>
+                </form>
+              </div>
+            </nav>
+            <!-- login -->
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="waves-effect collapsible-header"><i class="material-icons">new_releases</i>Registrate</div>
+                <div class="collapsible-body">
+                  <!-- Registro -->
+                  <br>
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Nombre</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Apellido</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Contraseña</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Confirmar Contraseña</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="email" type="email" class="validate">
+                          <label for="email">Correo Electronico</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </li>
+              <li>
+                <div class="waves-effect collapsible-header"><i class="material-icons">perm_identity</i>Login</div>
+                <div class="collapsible-body">
+                  <!-- Login -->
+                  <br>
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Correo Electronico</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Contraseña</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </li>
+              <!-- <span class="categorias">Categorias</span> -->
+              <div class="categorias">Categorias</div>
+
+            <!-- Computadoras -->
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="waves-effect collapsible-header">Computadoras<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a class="waves-effect" href="#!">de Escritorio</a></li>
+                      <li><a class="waves-effect" href="#!">Portatiles</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Accesorios -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Accesorios<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Lectores de Tarjetas</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Memoria</a></li>
+                    <li><a class="waves-effect" href="#!">Bocinas y Audifonos</a></li>
+                    <li><a class="waves-effect" href="#!">Mouse</a></li>
+                    <li><a class="waves-effect" href="#!">Teclados</a></li>
+                    <li><a class="waves-effect" href="#!">Adaptadores</a></li>
+                    <li><a class="waves-effect" href="#!">Cables Varios</a></li>
+                    <li><a class="waves-effect" href="#!">Controles para Juegos</a></li>
+                    <li><a class="waves-effect" href="#!">Filtros Protectores</a></li>
+                    <li><a class="waves-effect" href="#!">Fundas</a></li>
+                    <li><a class="waves-effect" href="#!">Mouse Pad</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Suministros -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Suministros<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Art.P/Mantenimiento</a></li>
+                    <li><a class="waves-effect" href="#!">Cintas Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Cintas Panasonic</a></li>
+                    <li><a class="waves-effect" href="#!">Papel Continuo</a></li>
+                    <li><a class="waves-effect" href="#!">Papel P/Fotocopiadora</a></li>
+                    <li><a class="waves-effect" href="#!">Recargas de Tinta</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos Canon</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos HP</a></li>
+                    <li><a class="waves-effect" href="#!">Cartuchos Lexmark</a></li>
+                    <li><a class="waves-effect" href="#!">Toner Canon</a></li>
+                    <li><a class="waves-effect" href="#!">Toner HP</a></li>
+                    <li><a class="waves-effect" href="#!">Toner Samsung</a></li>
+                    <li><a class="waves-effect" href="#!">Toner Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Varios Consumibles</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Accesorios para Red -->
+          <a class="waves-effect categoria" href="#!">Accesorios para Red</a>
+          <!-- Equipo para computo -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Equipo para computo<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Ups y Reguladores de Voltaje</a></li>
+                    <li><a class="waves-effect" href="#!">Case</a></li>
+                    <li><a class="waves-effect" href="#!">Cinchos para Discos</a></li>
+                    <li><a class="waves-effect" href="#!">Discos Duros</a></li>
+                    <li><a class="waves-effect" href="#!">Fuentes de Poder</a></li>
+                    <li><a class="waves-effect" href="#!">Memorias RAM</a></li>
+                    <li><a class="waves-effect" href="#!">Monitores</a></li>
+                    <li><a class="waves-effect" href="#!">Mother Board</a></li>
+                    <li><a class="waves-effect" href="#!">Procesadores/CPU</a></li>
+                    <li><a class="waves-effect" href="#!">Quemadora para DVD</a></li>
+                    <li><a class="waves-effect" href="#!">Quemadoras de CDs</a></li>
+                    <li><a class="waves-effect" href="#!">T/radio & TV</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Red</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Sonido</a></li>
+                    <li><a class="waves-effect" href="#!">Tarjetas de Video</a></li>
+                    <li><a class="waves-effect" href="#!">Ventiladores</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Camaras -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Camaras<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Camaras Web</a></li>
+                    <li><a class="waves-effect" href="#!">Camaras Digitales</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Medios de Almacenamiento -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Medios de Almacenamiento<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Memorias USB</a></li>
+                    <li><a class="waves-effect" href="#!">CDs en Blanco</a></li>
+                    <li><a class="waves-effect" href="#!">DVDs en Blanco</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Impresoras -->
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="waves-effect collapsible-header">Impresoras<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="waves-effect" href="#!">Impresoras Canon</a></li>
+                    <li><a class="waves-effect" href="#!">Impresoras Epson</a></li>
+                    <li><a class="waves-effect" href="#!">Impresoras Samsung</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Productos Varios -->
+          <a class="waves-effect categoria" href="#!">Productos Varios</a>
+          <!-- Items de Venta -->
+          <a class="waves-effect categoria" href="#!">Items de Venta</a>
+        </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse waves-effect"><i class="material-icons menu">menu</i></a>
+
+        </div>
+        <div class="col s10">
+
+        </div>
+        <div class="col s1">
+          <a class="waves-effect waves-light" href="#"><img id="home" src="house.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parallax -->
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2"><span class="slogan"><img id="logo" src="logo.png" alt="" /></span></h1>
+          <div class="row center">
+            <h5 class="header col s12 light"><span id="letrap" class="info">Recargas de Tinta</span></h5>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
+      <div class="parallax"><img src="parallax.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s4">
+            <!-- Produto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto1.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">RECARGA UNIVERSAL 100ML COLORES VARIOS</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q25.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>AHORRA HASTA UN 60% CADA VEZ QUE RECARGUES TUS CARTUCHOS</p>
+                  <p>TINTA UNIVERSAL , LA PUEDES USAR EN CARTUCHOS CANON, HP  O LEXMARK</p>
+                  <p>TINTA 100% GARANTIZADA</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto2.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">RECARGA 1/2 LITRO NEGRA / CYAN / MAGENTA / YELLOW</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q60.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Ahorra Hasta un 80% cada vez que recargues tus cartuchos</p>
+                  <p>Tinta Universal, la puedes utilizar en la mayoría de cartuchos</p>
+                  <p>Tinta 100% Garantizada</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto3.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">RECARGA COLOR UNIVERSAL 60ML</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q25.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Recarga en presentación de 30ml para cartucho</p>
+                  <p>Rinde aproximadamente para rellenar el cartucho 2 veces</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto4.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">RECARGA 60ML NEGRA</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q25.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Recarga en presentación de 30ml para cartucho</p>
+                  <p>Rinde aproximadamente para rellenar el cartucho 2 veces</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            <!-- Producto -->
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="productos/producto5.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="titulop">RECARGA 500ML CYAN & MAGENTA LIGHT</span><i class="material-icons right">more_vert</i></span>
+                </div>
+
+                <div class="card-action">
+                  <p class="precio">
+                    Precio: Q60.00
+                  </p>
+                </div>
+
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><b>Información del Producto</b><i class="material-icons right">close</i></span>
+                  <p>Para impresoras que utilizan 6 colores, ofrecemos la linea de tintas Cyan Light y Magenta Light</p>
+                  <p>Para darle mayor calidad a tus impresiones fotograficas.</p>
+                  <p>Observa la diferencia en la calidad de tus impresiones.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s4">
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li class="waves-effect waves-light"><a class="footer" href="#!"><i id="icono1" class="material-icons right">insert_chart</i>Quienes Somos</a></li>
+        <li class="waves-effect waves-light"><a class="footer" href="contactanos/contactenos.html"><i id="icono2" class="material-icons right">call</i>Contactanos</a></li>
+        <li class="waves-effect waves-light"><a class="footer" href="#!"><i id="icono3" class="material-icons right">supervisor_account</i>Páginas Amigas</a></li>
+        <li class="waves-effect waves-light"><a class="footer" href="#!"><i id="icono4" class="material-icons right">business</i>Franquicias</a></li>
+      </ul>
+    </div>
+
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <br>
+            <h5 class="white-text">Suscríbase a nuestra lista de distribución:</h5>
+            <br>
+            <div class="row">
+              <div class="col s12">
+                <div class="input-field inline">
+                  <input id="suscripcion" type="email" class="validate">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+              </div>
+            </div>
+            <br><br>
+
+          </div>
+          <div class="col l6 s12">
+            <br>
+            <h5 class="white-text">Deja tu Comentario:</h5>
+            <br><br>
+            <div class="row">
+              <div class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">textsms</i>
+                    <input type="text" id="autocomplete-input" class="autocomplete">
+                    <label for="autocomplete-input"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+       <div class="container">
+       © 2016 Compu-Market
+       </div>
+     </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

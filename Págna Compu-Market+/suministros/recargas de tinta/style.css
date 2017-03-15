@@ -1,0 +1,172 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a; /*Color boton sidenav*/
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+/*.teal-text.text-lighten-2{
+  padding-top: 6%;
+}*/
+.info{
+  color: white; /*Color de letra de parallax*/
+}
+#letrap{
+  font-family: 'Delius Unicase', cursive;/*Tipo de letra Parallax*/
+}
+#logo{
+  width: 249px;
+}
+/*header, main, footer {
+  padding-left: 300px;
+}*/
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+/*div{
+  border: 1px solid black;
+}*/
+.material-icons{
+  font-size: 38px; /*Tamaño icono sidenav*/
+}
+.validate{
+  width: 163px !important;
+}
+.contenido{
+  font-family: 'Josefin Sans', sans-serif;
+}
+#password{
+  width: 348px !important; /*Largo Forms*/
+}
+#email{
+  width: 348px !important; /*Largo Forms*/
+}
+.productos{
+  border-bottom: 1px solid #2E6E65;
+  text-align: center;
+}
+#search{
+  background-color: #1B5E20; /*Color barra search*/
+}
+.tproductos{
+  font-family: 'Chewy', cursive;
+  font-size: 50px;
+  color: #083836;
+}
+.precio{ /*estilo de los precios*/
+  font-family: 'Coiny', cursive;
+  font-size: 30px;
+}
+.titulop{
+  font-family: 'Montaga', serif;
+}
+.descuento{
+  text-decoration: line-through;
+}
+.button-collapse{
+  margin-left: -34px; /*Posición icono*/
+}
+#search{
+  color: white;
+}
+.rojo{
+  color: red;
+}
+.menu{
+  padding-top: 34%;
+}
+.boton{
+  color: black;
+}
+body{
+  background-color: #F4F7F7;
+}
+.footer{
+  font-size: 20px;
+}
+.red{
+  background-color: #43a047 !important; /*color footer adesivo*/
+}
+.categorias{ /*estilo sideMenu Categorias*/
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+}
+.categoria{ /*alineacion categorias unicas*/
+    padding-left: 20% !important;
+}
+#icono1{
+  padding-right: 50px;
+}
+#icono2{
+  padding-right: 50px;
+}
+#icono3{
+  padding-right: 50px;
+}
+#icono4{
+  padding-right: 50px;
+}
+#suscripcion{
+  width: 348px !important;
+}
+.teal{
+  background-color: #00838f !important;
+}
+#home{
+  width: 45px;
+  padding-top: 16%;
+}
